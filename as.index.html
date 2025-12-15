@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MMA Training Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Oswald', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #111, #1c1c1c);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 4px solid #e10600;
+    }
+    header h1 {
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      color: #e10600;
+      text-shadow: 2px 2px 5px #000;
+    }
+    header p {
+      font-size: 18px;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 32px;
+      background-color: #e10600;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #ff2a2a;
+      transform: scale(1.05);
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      border-left: 6px solid #e10600;
+      padding-left: 15px;
+      text-transform: uppercase;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background-color: #1c1c1c;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(225,0,0,0.7);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #e10600;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    .card p {
+      color: #ccc;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 30px 10px;
+      color: #777;
+      font-size: 14px;
+      border-top: 4px solid #e10600;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MMA Training Platform</h1>
+  <p>Тестовая онлайн-платформа для тренировок по смешанным боевым искусствам. Развивай технику, физическую форму и бойцовское мышление.</p>
+  <a href="#training" class="btn">Начать тренировки</a>
+</header>
+
+<section id="about">
+  <h2>О платформе</h2>
+  <p>Эта платформа создана как демонстрационный сайт для тренировок по ММА. Она подходит для спортсменов любого уровня подготовки и может использоваться как прототип будущего проекта.</p>
+</section>
+
+<section id="training">
+  <h2>Тренировки</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Ударная техника</h3>
+      <p>Бокс, кикбоксинг, муай-тай. Отработка ударов, комбинаций, защиты и передвижения.</p>
+    </div>
+    <div class="card">
+      <h3>Борьба</h3>
+      <p>Грэпплинг, BJJ, борьба у сетки, контроль позиций и переводы.</p>
+    </div>
+    <div class="card">
+      <h3>MMA навыки</h3>
+      <p>Переходы между стойкой и партером, бойцовские сценарии и тактика.</p>
+    </div>
+    <div class="card">
+      <h3>Физическая подготовка</h3>
+      <p>Сила, выносливость, скорость, функциональные тренировки.</p>
+    </div>
+  </div>
+</section>
+
+<section id="programs">
+  <h2>Программы</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Новичок</h3>
+      <p>Базовые тренировки для старта в ММА и развития общей физической формы.</p>
+    </div>
+    <div class="card">
+      <h3>Средний уровень</h3>
+      <p>Углубление техники, увеличение нагрузки и развитие выносливости.</p>
+    </div>
+    <div class="card">
+      <h3>Продвинутый</h3>
+      <p>Интенсивные тренировки, спарринговые сценарии и подготовка к боям.</p>
+    </div>
+  </div>
+</section>
+
+<section id="progress">
+  <h2>Прогресс</h2>
+  <p>Пользователь может отмечать выполненные тренировки, вести дневник и отслеживать развитие своих навыков. Раздел реализован в тестовом формате.</p>
+</section>
+
+<footer>
+  <p><strong>Контакты</strong></p>
+  <p>Телефон: +7 777 468 54 67</p>
+  <p>Адрес: г. Алматы, ул. Абая 159, спортивная школа единоборств</p>
+  <br>
+  <p>© 2025 MMA Training Platform | Тестовый проект</p>
+</footer>
+
+</body>
+</html>
